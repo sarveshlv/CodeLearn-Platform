@@ -23,6 +23,7 @@ public class ICardService implements CardService {
         return cardRepository.save(card);
     }
 
+    //The logic needs to be changed, this is just a queue simulation
     @Override
     public Card getNextFlashcard(String lastCardId, String knowsAnswer) {
         List<Card> allFlashcards = getAllCards();
