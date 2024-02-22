@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/model/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/repository/CardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/src/main/java/com/capg/servicediscovery/ServiceDiscoveryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/src/test/java/com/capg/servicediscovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2cis8o4jA3Sb6cA44xcQlwZEV5R" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.ServiceDiscoveryApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging sarvesh",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/slvirakt/Desktop/CodeLearn-Platform"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.capg.app.Application" />
+      <module name="flashcard" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capg.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceDiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.capg.servicediscovery.ServiceDiscoveryApplication" />
+      <module name="ServiceDiscovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capg.servicediscovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.ServiceDiscoveryApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="" />
+      <created>1708605576977</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708605576977</updated>
+    </task>
+    <servers />
+  </component>
+</project>
