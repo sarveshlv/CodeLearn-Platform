@@ -4,56 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/model/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/repository/CardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/src/main/java/com/capg/servicediscovery/ServiceDiscoveryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServiceDiscovery/src/test/java/com/capg/servicediscovery/ServiceDiscoveryApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="New additions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/CardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/CardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/ICardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/ICardService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2cis8o4jA3Sb6cA44xcQlwZEV5R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Run",
-    "Application.ServiceDiscoveryApplication.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging sarvesh",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/slvirakt/Desktop/CodeLearn-Platform"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServiceDiscoveryApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sarvesh&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/slvirakt/Desktop/CodeLearn-Platform&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.capg.app.Application" />
@@ -105,5 +99,20 @@
       <updated>1708605576977</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="New additions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

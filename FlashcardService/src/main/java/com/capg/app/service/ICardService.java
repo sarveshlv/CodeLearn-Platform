@@ -5,13 +5,21 @@ import com.capg.app.repository.CardRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class ICardService implements CardService {
 
     @Autowired
     private CardRepository cardRepository;
+
+    private List<Card> allFlashCards = new ArrayList<>();
+
+    public void initializeCardList() {
+        allFlashCards.addAll(getAllCards());
+    }
 
     @Override
     public List<Card> getAllCards() {
@@ -23,23 +31,50 @@ public class ICardService implements CardService {
         return cardRepository.save(card);
     }
 
+    @Override
+    public Optional<Card> getCardById(String cardId) {
+        return cardRepository.findById(cardId);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //The logic needs to be changed, this is just a queue simulation (checked)
     @Override
     public Card getNextFlashcard(String lastCardId, String knowsAnswer) {
-        List<Card> allFlashcards = getAllCards();
-        int currentIndex = 0;
+        if(allFlashCards.isEmpty()) {
+            initializeCardList();
+        }
 
-        for (int i = 0; i < allFlashcards.size(); i++) {
-            if (allFlashcards.get(i).getId().equals(lastCardId)) {
+        int currentIndex = 0;
+        for (int i = 0; i < allFlashCards.size(); i++) {
+            if (allFlashCards.get(i).getId().equals(lastCardId)) {
                 currentIndex = i;
                 break;
             }
         }
 
-        if (knowsAnswer.equals("yes")) {
-            currentIndex = (currentIndex + 1) % allFlashcards.size();
+        if(knowsAnswer.equals("yes")) {
+            allFlashCards.remove(allFlashCards.get(currentIndex));
+            if(allFlashCards.isEmpty()) {
+                initializeCardList();
+                return allFlashCards.get(0);
+            }
+        } else {
+            currentIndex = (currentIndex+1) % allFlashCards.size();
         }
-
-        return allFlashcards.get(currentIndex);
+        System.out.println(allFlashCards);
+        return allFlashCards.get(currentIndex);
     }
 }
