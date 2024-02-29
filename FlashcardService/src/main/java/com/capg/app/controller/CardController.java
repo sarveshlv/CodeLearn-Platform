@@ -1,42 +1,16 @@
 package com.capg.app.controller;
 
-import com.capg.app.model.Bookmark;
-import com.capg.app.model.Card;
-import com.capg.app.service.BookmarkService;
-import com.capg.app.service.CardService;
+import com.capg.app.service.FlashcardService.FlashcardService;
+import com.capg.app.service.UserActivityService.UserActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
-import java.util.Queue;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/cards")
+@RequestMapping("/api/Flashcard")
 public class CardController {
-
     @Autowired
-    private CardService cardService;
+    private FlashcardService flashcardService;
     @Autowired
-    private BookmarkService bookmarkService;
-
-    @GetMapping("/getAllCards")
-    public List<Card> getAllCards() {
-        return cardService.getAllCards();
-    }
-
-    @PostMapping("/addCard")
-    public String addCard(@RequestBody Card card) {
-        cardService.addCard(card);
-        return "Card added!";
-    }
-
-    @PostMapping("/answer")
-    public Card getNextCard(@RequestParam String lastCardId, @RequestParam String knowsAnswer) {
-        return cardService.getNextFlashcard(lastCardId, knowsAnswer);
-    }
-
-    @PostMapping("/bookmark")
-    public Bookmark addBookMark(@RequestParam String cardId) {
-        return bookmarkService.addBookmark(cardId);
-    }
+    private UserActivityService userActivityService;
 }

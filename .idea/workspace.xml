@@ -6,12 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="New additions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/CardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/CardService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/ICardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/ICardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/model/Bookmark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/model/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/repository/BookmarkRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/repository/CardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/BookmarkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/CardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/IBookmarkService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -109,7 +113,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/ICardService.java</url>
-          <line>68</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

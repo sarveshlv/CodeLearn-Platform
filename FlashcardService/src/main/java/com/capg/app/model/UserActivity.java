@@ -5,12 +5,14 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document(collection = "cards")
-public class Card {
+@Document(collection = "useractivity")
+public class UserActivity {
 
     @Id
     private String id;
-    private String question;
-    private String description;
-    private String cardCategory;
+    private String userid;
+    private String cardid;
+    private String status;
+    private String type;
+
 }
