@@ -10,4 +10,9 @@ public interface FlashcardService {
     List<Flashcard> getAllCards();
 
     List<Flashcard> getAllCardsByCategory(String category);
+
+    //    public Flashcard createFlashcard(Flashcard card) {
+    //        return flashcardRepo.save(card);
+    //    }
+    Flashcard getNextFlashcard(String cardId, String knowsAnswer);
 }
