@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="New additions" />
+    <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="New api additions">
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/FlashcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/FlashcardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/IFlashcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/IFlashcardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/ICardService.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New additions" />
-    <option name="LAST_COMMIT_MESSAGE" value="New additions" />
+    <MESSAGE value="New api additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="New api additions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

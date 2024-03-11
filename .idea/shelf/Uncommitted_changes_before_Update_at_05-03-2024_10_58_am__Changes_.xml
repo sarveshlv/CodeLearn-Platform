@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]" date="1709616539451" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 05-03-2024 10:58 am [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="FlashcardService/target/classes/com/capg/app/service/ICardService.class" />
+    <option name="AFTER_PATH" value="FlashcardService/target/classes/com/capg/app/service/ICardService.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]/ICardService.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="FlashcardService/target/classes/com/capg/app/controller/CardController.class" />
+    <option name="AFTER_PATH" value="FlashcardService/target/classes/com/capg/app/controller/CardController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]/CardController.class" />
+  </binary>
+</changelist>

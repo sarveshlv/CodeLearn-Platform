@@ -11,6 +11,8 @@ public interface FlashcardService {
 
     List<Flashcard> getAllCardsByCategory(String category);
 
+    Flashcard createFlashcard(Flashcard card);
+
     //    public Flashcard createFlashcard(Flashcard card) {
     //        return flashcardRepo.save(card);
     //    }

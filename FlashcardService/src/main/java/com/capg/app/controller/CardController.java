@@ -5,10 +5,7 @@ import com.capg.app.model.UserActivity;
 import com.capg.app.service.FlashcardService.FlashcardService;
 import com.capg.app.service.UserActivityService.UserActivityService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,6 +20,10 @@ public class CardController {
     @GetMapping("/getAllCards")
     public List<Flashcard> getAllCards() {
         return flashcardService.getAllCards();
+    }
+    @PostMapping("/addCard")
+    public Flashcard addCard(@RequestBody Flashcard card) {
+        return flashcardService.createFlashcard(card);
     }
     @GetMapping("/getCardsByCategory")
     public List<Flashcard> getAllCardsByCategory(@RequestParam String category) {
