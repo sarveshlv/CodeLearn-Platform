@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/FlashcardService/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceDiscovery/pom.xml" />
+        <option value="$PROJECT_DIR$/CommunityService/pom.xml" />
       </list>
     </option>
   </component>

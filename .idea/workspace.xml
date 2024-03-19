@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f9bbd5-37e2-4e1c-8394-9dbe7b3417da" name="Changes" comment="New api additions">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]/CardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]/ICardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_05-03-2024_10_58_am__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2024_11_29_am_[Changes]/CardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2024_11_29_am_[Changes]/ICardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2024_11_29_am_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11-03-2024_11_29_am__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/controller/CardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/FlashcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/FlashcardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/IFlashcardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/src/main/java/com/capg/app/service/FlashcardService/IFlashcardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/controller/CardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FlashcardService/target/classes/com/capg/app/service/ICardService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -38,27 +47,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ServiceDiscoveryApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;sarvesh&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/slvirakt/Desktop/CodeLearn-Platform&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Application.executor": "Run",
+    "Application.CommunityServiceApplication.executor": "Run",
+    "Application.ServiceDiscoveryApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "sarvesh",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Desktop/CodeLearn-Platform/CommunityService",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.Application">
+}]]></component>
+  <component name="RunManager" selected="Application.CommunityServiceApplication">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.capg.app.Application" />
       <module name="flashcard" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.capg.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.capg.CommunityService.CommunityServiceApplication" />
+      <module name="CommunityService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.capg.CommunityService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +106,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.CommunityServiceApplication" />
         <item itemvalue="Application.ServiceDiscoveryApplication" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>

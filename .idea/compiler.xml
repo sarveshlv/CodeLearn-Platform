@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="flashcard" />
         <module name="demo" />
+        <module name="CommunityService" />
         <module name="ServiceDiscovery" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommunityService" options="-parameters" />
       <module name="ServiceDiscovery" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="flashcard" options="-parameters" />
