@@ -11,11 +11,13 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/post")
+@CrossOrigin(origins = "http://localhost:4200")
 public class PostController {
     @Autowired
     private PostService postService;
     @PostMapping("/create")
-    public ResponseEntity<Post> createPost(@RequestBody Post post, @RequestHeader("userId") String userId) {
+    public ResponseEntity<Post> createPost(@RequestBody Post post) {
+        String userId = "1234";
         return ResponseEntity.status(HttpStatus.CREATED).body(postService.createPost(post, userId));
     }
     @GetMapping("/getALlPosts")
